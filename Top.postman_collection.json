@@ -1,0 +1,167 @@
+{
+  "info": {
+    "_postman_id": "52a9743a-3350-4807-bd91-aa44e6f5018f",
+    "name": "Top",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51940679",
+    "_collection_link": "https://go.postman.co/collection/51940679-52a9743a-3350-4807-bd91-aa44e6f5018f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Apple",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://newsapi.org/v2/everything?q=apple&from=2026-04-10&to=2026-04-10&sortBy=popularity&language=en&apiKey=f7118d2d6a5042beb31b18fb5e057e97",
+          "protocol": "https",
+          "host": [
+            "newsapi",
+            "org"
+          ],
+          "path": [
+            "v2",
+            "everything"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "apple"
+            },
+            {
+              "key": "from",
+              "value": "2026-04-10"
+            },
+            {
+              "key": "to",
+              "value": "2026-04-10"
+            },
+            {
+              "key": "sortBy",
+              "value": "popularity"
+            },
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "apiKey",
+              "value": "f7118d2d6a5042beb31b18fb5e057e97"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Top business headlines from USA",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=f7118d2d6a5042beb31b18fb5e057e97",
+          "protocol": "https",
+          "host": [
+            "newsapi",
+            "org"
+          ],
+          "path": [
+            "v2",
+            "top-headlines"
+          ],
+          "query": [
+            {
+              "key": "country",
+              "value": "us"
+            },
+            {
+              "key": "category",
+              "value": "business"
+            },
+            {
+              "key": "apiKey",
+              "value": "f7118d2d6a5042beb31b18fb5e057e97"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Crypto",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://newsapi.org/v2/everything?q=crypto%20and%20ethereum%20or%20litecoin&leanguage=en&sortBy=publishedAt&apikey=f7118d2d6a5042beb31b18fb5e057e97",
+          "protocol": "https",
+          "host": [
+            "newsapi",
+            "org"
+          ],
+          "path": [
+            "v2",
+            "everything"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "crypto%20and%20ethereum%20or%20litecoin"
+            },
+            {
+              "key": "leanguage",
+              "value": "en"
+            },
+            {
+              "key": "sortBy",
+              "value": "publishedAt"
+            },
+            {
+              "key": "apikey",
+              "value": "f7118d2d6a5042beb31b18fb5e057e97"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Bitcoin",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://newsapi.org/v2/everything?q=bitcoin&language=es&sortBy=publishedAt&apiKey=f7118d2d6a5042beb31b18fb5e057e97",
+          "protocol": "https",
+          "host": [
+            "newsapi",
+            "org"
+          ],
+          "path": [
+            "v2",
+            "everything"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "bitcoin"
+            },
+            {
+              "key": "language",
+              "value": "es"
+            },
+            {
+              "key": "sortBy",
+              "value": "publishedAt"
+            },
+            {
+              "key": "apiKey",
+              "value": "f7118d2d6a5042beb31b18fb5e057e97"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
